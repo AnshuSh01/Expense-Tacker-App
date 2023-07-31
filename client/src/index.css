@@ -1,0 +1,98 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  
+}
+
+
+.table{
+  display: flex;
+  flex-direction: column;
+  padding: 1px;
+}
+
+.navbar {
+  background-color: #6fbef7 !important;
+  
+}
+
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+@media only screen and (max-width: 768px) {
+  html, body{
+  width: 505px !important;
+}
+  .register-page {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-1 {
+    width: 350px;
+  }
+  .content {
+    height: 88vh;
+  }
+  .userdiv {
+    margin: 30px;
+  }
+  .card-div{
+    margin-top: 12px !important;
+  }
+}
+
+.pnf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.anchor {
+  text-decoration: none;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px grey;
+}
+
+.switch-icons {
+  box-shadow: 0 0 8px rgb(134, 131, 131);
+  border-radius: 5px;
+  padding: 8px 8px;
+  margin: 10px;
+}
+.anticon svg {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.active-icons {
+  color: black;
+}
+.inactive-icons {
+  color: grey;
+}
+
+.img {
+  margin: 20px !important;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
